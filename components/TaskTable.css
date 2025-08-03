@@ -1,0 +1,100 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.table-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.button {
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #e0e7ff;
+  color: #222;
+  transition: background 0.2s;
+}
+
+.add-button {
+  background: #2563eb;
+  color: #fff;
+}
+
+.add-button:hover {
+  background: #1d4ed8;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f9fafb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.task-table th,
+.task-table td {
+  color: #222;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.task-table th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+.task-table tr:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-view {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.action-edit {
+  background: #fef9c3;
+  color: #ca8a04;
+}
+
+.action-delete {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.action-view:hover {
+  background: #bfdbfe;
+}
+
+.action-edit:hover {
+  background: #fde68a;
+}
+
+.action-delete:hover {
+  background: #fecaca;
+}
