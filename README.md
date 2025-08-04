@@ -1,4 +1,7 @@
 # SAD2
+
+Status: WIP
+
 This is a repository for a test project in our Software Engineering course, or SAD2 for short. 
 
 How to reproduce this project:
